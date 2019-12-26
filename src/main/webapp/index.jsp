@@ -44,7 +44,6 @@
         }
         return {f: hasFlash, v: flashVersion};
     }
-
     var fls = flashChecker();
     var s = "";
     if (fls.f) {
